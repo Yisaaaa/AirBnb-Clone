@@ -12,21 +12,37 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  color: #444;
+}
+
+.gray {
+  color: #777;
+}
+
+.bold {
+  font-weight: 600;
 }
 
 .header {
-  padding: 3rem 7.2rem;
-  margin-bottom: 3rem;
+  padding: 2rem 9.6rem;
+  margin-bottom: 9.6rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-  height: 4rem;
+  height: 3.2rem;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
 }
 
 .container {
-  max-width: 140rem;
+  max-width: 130rem;
   margin: 0 auto;
+  padding: 9.6rem 0;
 }
 
 .hero-img-container {
@@ -35,7 +51,7 @@ body {
 }
 
 .hero-img {
-  width: 75%;
+  width: 60%;
 }
 
 .primary--heading {
@@ -48,6 +64,35 @@ body {
 
 .hero-text {
   font-size: 2rem;
-  max-width: 50rem;
+  max-width: 65rem;
   line-height: 1.8;
+}
+
+.cards {
+  display: flex;
+  gap: 4rem;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.card--image {
+  width: 28rem;
+  height: 35.5rem;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.card--star {
+  height: 16px;
+}
+
+.title {
+  font-size: 1.8rem;
 }

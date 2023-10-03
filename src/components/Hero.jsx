@@ -3,7 +3,7 @@ import heroImg from "../hero.svg";
 
 export default function Hero() {
   return (
-    <section className="hero container">
+    <section className="hero">
       <div className="hero-img-container">
         <img src={heroImg} className="hero-img" />
       </div>

@@ -23,7 +23,7 @@ function App() {
     <>
       <Header />
       <Hero />
-      <div className="cards">{cards}</div>
+      <div className="cards container">{cards}</div>
     </>
   );
 }
