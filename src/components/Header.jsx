@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../airbnb.svg";
+import logo from "/images/airbnb-logo.png";
 
 function Header() {
   return (

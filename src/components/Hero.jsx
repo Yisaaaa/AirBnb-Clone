@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../hero.svg";
+import heroImg from "/images/photo-grid.png";
 
 export default function Hero() {
   return (
