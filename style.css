@@ -76,6 +76,22 @@ body {
   scrollbar-width: none;
 }
 
+.card {
+  position: relative;
+}
+
+.card-badge {
+  position: absolute;
+  background-color: white;
+  top: 6px;
+  left: 8px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  padding: 4px 8px;
+  letter-spacing: -0.5px;
+  border-radius: 4px;
+}
+
 .card--image {
   width: 28rem;
   height: 35.5rem;
